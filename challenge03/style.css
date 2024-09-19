@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    margin: 0;
+    width: 100%;
+    background-color: #23424A;
+    height: 60%;
+}
+
+.banner {
+    width: 50%;
+    padding: 6rem;
+}
+
+.hero-text {
+    color: white;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero-content {
+    color: lightgrey;
+    line-height: 31.5px;
+    font-size: 16px;
+}
+
+.hero-button{
+    margin-top: 20px;
+    width: 13em;
+    height: 3em;
+    background-color: #38CFD9;
+    font-weight: bold;
+    font-size: 21px;
+    text-transform: uppercase;
+    border-color: transparent;
+    border-radius: 31.5px;
+}
