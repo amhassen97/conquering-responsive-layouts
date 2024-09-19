@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Robot", sans-serif;
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.hero{
+    padding: 100px 0;
+    background-color: #23424A;
+    color: white;
+}
+
+.hero__text {
+    width: 50%;
+
+}
+
+.hero p {
+    margin-bottom: 3em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #23424A;
+    font-weight: 900;
+    background-color: #38CFD8;
+    padding: .75em 2em;
+    border-radius: 100px;
+}
